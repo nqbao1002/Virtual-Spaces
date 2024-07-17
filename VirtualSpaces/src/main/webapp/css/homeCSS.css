@@ -1,0 +1,123 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1492657416192-762d3e813c48?q=80&w=2847&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    background-color: transparent;
+}
+
+.header img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    padding-right: 51px;
+}
+
+.head-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-links a {
+    margin-right: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+#web-name {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    margin-left: 100px;
+    color: black;
+}
+
+.head-links a:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.introduction {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.introduction p {
+    width: 50%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+.getstarted-btn {
+    display: flex;
+    justify-content: center;
+}
+
+#btn-login {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
+    color: white;
+    background-color: #116c85;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#btn-login:hover {
+    color: #116c85;
+    background-color: white;
+    cursor: pointer;
+}
+
+.footer {
+    height: 420px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.contact-information {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: invert(10%);
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #116c85;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.contact-information:hover{
+    color: white;
+    cursor: pointer;
+}

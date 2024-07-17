@@ -1,0 +1,120 @@
+/* Reset CSS */
+a{
+    text-decoration: none;
+    color: black;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.task-1,
+.task-2 {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.task-2 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 75px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.add-btn {
+    background-color: #ccc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.add-btn:hover {
+    background-color: #767676;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #ccc; /* Màu nền xám */
+    color: #fff; /* Màu chữ trắng */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: #767676; /* Màu nền xám đậm khi di chuột qua */
+}
+#editTaskForm {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+#editTaskForm form {
+    width: 100%; /* Đảm bảo form điền đầy toàn bộ phần nội dung của #editTaskForm */
+}
+
+#editTaskForm input[type="text"],
+#editTaskForm input[type="date"],
+#editTaskForm input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#editTaskForm input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#editTaskForm input[type="submit"]:hover {
+    background-color: #45a049;
+}

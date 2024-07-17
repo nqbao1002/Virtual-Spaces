@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    width: 5%;
+    height: 100vh;
+    background-color: white;
+    border-radius: 0px 30px 30px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.admin-profile{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-profile img{
+    width: 45px;
+    height: 45px;  
+    border-radius: 50%;
+}
+
+.admin-profile img:hover{
+    cursor: pointer;
+}
+
+.list-functions{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.list-functions li{
+    margin: 20px 0px;
+}
+
+.list-functions li button{
+    border: none;
+    background-color: transparent;
+    color: #757575;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+hr{
+    width: 30px;
+    height: 1px;
+    background-color: black;
+}
+
+.list-functions li button:hover{
+    background-color: #757575;
+    color: white;
+    cursor: pointer;
+}
+
+.model{
+    width: 93%;
+    margin: 10px;
+}
+
+.edit-model{
+    top: 15px;
+    bottom: 15px;
+    left: 100px;
+    right: 15px;
+    border-radius: 30px;
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    background-color: #25798f;
+}

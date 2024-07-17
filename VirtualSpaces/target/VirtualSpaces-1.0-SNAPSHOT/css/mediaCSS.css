@@ -1,0 +1,55 @@
+.task1 {
+    margin-top: -524px;
+    margin-left: 532px;
+    padding-top: 44px;
+    background-color: white;
+    width: 443px;
+    height: 240px;
+    padding-bottom: 90px;
+    border-radius: 2%;
+    color: #898686;
+    cursor: grab;
+}
+
+.header1 {
+    display: flex;
+    gap: 346px;
+    margin: 23px;
+}
+.header1 p{
+    margin-left: -14px;
+    margin-top: -72px;
+    font-size: 25px;
+}
+.media{
+    margin-top: 5px;
+}
+.media iframe{
+    padding: -11px;
+    grid-column-gap: 8px;
+    height: 155px;
+}
+.body-URL{
+    display: flex;
+    gap: 10px;
+}
+.URL{
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 11px;
+    width: 74%;
+}
+.URL input{
+    width: 90%;
+    margin: 8px;
+    padding: 4px;
+    border-radius: 8px;
+    font-size: 12px;
+    border: none;
+    outline: none;
+}
+.Save{
+    width: 75px;
+    border: none;
+    background-color: white;
+}
